@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  height: 70px;
+}
+
+.carousel .carousel-item img{
+  height: 100vh;
+  object-fit: cover;
+}
+section.section{
+  padding: 40px 0;
+}
+section.section.light{
+  background: #fcfcfc;
+}
+.travel-card img{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px #ccc;
+}
+.travel-card p{
+  text-align: justify;
+  text-align-last: right;
+}
+.line{
+  height: 2px;
+  width: 200px;
+  background: red;
+  margin-top: 7px;
+}
+.site-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.image-gallery img{
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1 #222
+
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0
+}
+footer{
+  background: #222;
+  color: #fefefe;
+}
+footer img{
+  background: #fefefe;
+  border-radius:50%;
+  height: 100px;
+  width: 80px;
+}
